@@ -1,0 +1,38 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+format = """
+$kubernetes\
+$aws\
+$line_break\
+$directory\
+$git_branch\
+$line_break\
+$time\
+$jobs\
+$character"""
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+[directory]
+disabled = false
+truncation_symbol = ".../"
+
+[kubernetes]
+disabled = false
+format = '[\(Context:](bold) [$context](underline bright-purple) [| Namespace:](bold) [$namespace](underline bright-purple)[\)](bold) '
+
+[character]
+success_symbol = '[>](bold green)'
+error_symbol = '[>](bold red)'
+
+[time]
+disabled = false
+
+[aws]
+disabled = false
+format = '--- [AWS PROFILE:](bold) [($profile)](underline bright-blue)'

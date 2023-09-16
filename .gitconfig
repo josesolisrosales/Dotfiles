@@ -1,0 +1,11 @@
+[user]
+	name = jose.solisrosales@sysdig.com
+	email = jose.solisrosales@sysdig.com
+	signingkey = 5D4FE959DA79B3649B53D852C668C68A73B6A7B9
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[safe]
+	directory = /Users/jose.solisrosales/sysdig/infrastructure
+	directory = /Users/jose.solisrosales/sysdig/sysdigcloud-harness-cd

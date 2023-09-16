@@ -4,4 +4,4 @@
 !.zshrc
 !.gitconfig
 !.gitignore
-!.config/starship.toml
+!.starship.toml
