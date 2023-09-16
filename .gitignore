@@ -3,4 +3,5 @@
 # List of files to track
 !.zshrc
 !.gitconfig
+!.gitignore
 !.config/starship.toml
