@@ -1,0 +1,6 @@
+*
+
+# List of files to track
+!.zshrc
+!.gitconfig
+!.config/starship.toml
