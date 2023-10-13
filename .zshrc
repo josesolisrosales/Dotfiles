@@ -1,5 +1,5 @@
 EDITOR='vim'
-export STARSHIP_CONFIG=~/example/non/default/path/starship.toml
+export STARSHIP_CONFIG=~/.starship.toml
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 autoload -U +X bashcompinit && bashcompinit

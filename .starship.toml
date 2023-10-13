@@ -9,6 +9,7 @@ $aws\
 $line_break\
 $directory\
 $git_branch\
+$python\
 $line_break\
 $time\
 $jobs\
@@ -36,3 +37,7 @@ disabled = false
 [aws]
 disabled = false
 format = '--- [AWS PROFILE:](bold) [($profile)](underline bright-blue)'
+
+[python]
+disabled = false
+python_binary = "python3"
