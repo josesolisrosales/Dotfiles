@@ -1,5 +1,6 @@
 EDITOR='vim'
 export STARSHIP_CONFIG=~/example/non/default/path/starship.toml
+export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 autoload -U +X bashcompinit && bashcompinit
 autoload -U +X compinit && compinit
@@ -24,8 +25,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 
-export PATH="$HOME/.krew/bin:$PATH"
-
+export PATH="$HOME/Library/Python/3.9/bin:$PATH"
 source $ZSH/oh-my-zsh.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
